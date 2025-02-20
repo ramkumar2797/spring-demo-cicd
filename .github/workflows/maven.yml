@@ -34,8 +34,8 @@ jobs:
       uses: mr-smithers-excellent/docker-build-push@v5
       with:
         image: ramkumar2702/spring-cicd-image
-      tags: latest
-      registry: docker.io
-      dockerfile: Dockerfile
-      username: ${{ secrets.DOCKER_USERNAME }}
-      password: ${{ secrets.DOCKER_PASSWORD }}
+        tags: latest
+        registry: docker.io
+        dockerfile: Dockerfile
+        username: ${{ secrets.DOCKER_USERNAME }}
+        password: ${{ secrets.DOCKER_PASSWORD }}
