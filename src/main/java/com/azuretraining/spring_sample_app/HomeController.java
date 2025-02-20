@@ -8,6 +8,6 @@ public class HomeController {
 
     @GetMapping
     public String index(){
-        return "Hello All, Day 4 azure training";
+        return "Hello All, Day 4 azure training CI/CD pipeline";
     }
 }
